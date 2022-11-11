@@ -6,7 +6,7 @@ console.log(linguagem)
 const areaDoCodigo = document.querySelector('#parteCode')
 console.log(areaDoCodigo) 
 
- const selecionaBotao = document.querySelector('#botao')
+const selecionaBotao = document.querySelector('#botao')
 console.log(selecionaBotao) 
 
 function aplicaHighlight() {
@@ -18,6 +18,7 @@ function aplicaHighlight() {
 }
 
 selecionaBotao.addEventListener("click", () => aplicaHighlight())
+
 
 
 
