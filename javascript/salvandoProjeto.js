@@ -4,10 +4,6 @@ const tituloDoProjeto = document.querySelector("#text1");
 const descricaoDoProjeto = document.querySelector("#text2");
 const corDoProjeto = document.querySelector("#b1");
 const pegaLinguagem = document.querySelector(".linguagem");
-const areaCdg = document.querySelector("#parteCode");
-
-const mudaCor = document.getElementById('b1')
-const mudaFundo = document.getElementById('caixa')
 const bordaDoCard = document.getElementById('bordaDoCard') 
 
 corDoProjeto.addEventListener("input", function (evento) {
@@ -15,27 +11,20 @@ corDoProjeto.addEventListener("input", function (evento) {
 	preservar.style = `background: ${corzinha}`;
 }); 
 
-// preservar.addEventListener("change", (evento) => {
-//     let mudaraCor = evento.target.value; 
-//     bordaDoCard.style = `background: ${mudaraCor}`
-// })
-
-
 function criarProjeto() {
 	var projetinho = {
-		// id: atribuiID(), // vou criar
 		detalhesDoProjeto: {
 			nome: tituloDoProjeto.value,
 			descricao: descricaoDoProjeto.value,
 			cor: corDoProjeto.style.backgroundcolor,
 			language: pegaLinguagem.value,
-			code: areaCdg.querySelector("code").innerText,
+			// code: areaCdg.querySelector("code").innerText,
 		},
 	};
 
     let corDoCard = document.querySelector(".preservar").style.backgroundColor;
     !corDoCard ? corDoCard = '#6BD1FF' : null 
-    let codee = document.querySelector('#parteCode').innerText; 
+    let codee = document.querySelector('#parteCode').innerHTML; 
 
     let lingua = document.querySelector('.linguagem').value
 
@@ -54,7 +43,8 @@ function criarProjeto() {
                 <img src="../imagens/verde.png" alt="">
             </div>
         </div id="recebeConteudo">
-            <code class="preview-hljs ${pegaLinguagem.value} hljs language-${lingua}" contenteditable="true" aria-label="Editor de código">${codee}</code>
+
+            <code class="preview-hljs ${lingua}" contenteditable="true" aria-label="Editor de código">${codee}</code>
         </div>
         
         <div onmouseover="mOver(this)" onmouseout="mOut(this)" id="descritivo">
@@ -80,16 +70,11 @@ function criarProjeto() {
 
 botaoSalvar.addEventListener("click", function (evento) {
 	 criarProjeto();
-     console.log(clicks);
-});
 
-var clicks = 0;
-console.log(clicks);
+});
 
 const botaoVaiParaComunidade = document.querySelector("#comunidadeBot");
 const botaoVaiParaEditor = document.querySelector("#editorBot");
-const divLimpa = document.querySelector(".caixaDeTexto");
-const recebeCard = document.querySelector("#cardsCriados");
 
 botaoVaiParaComunidade.addEventListener("click", (evento) => {
 	document.querySelector(".caixaDeTexto").style.display = "none";
@@ -101,4 +86,3 @@ botaoVaiParaEditor.addEventListener("click", (evento) => {
 	document.querySelector("#contemCards").style.display = "none";
 });
 
-{/* <textarea id="conteudoInserido" class="preview-hljs ${lingua}"> ${codee}</textarea> */}

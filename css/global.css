@@ -353,11 +353,11 @@ code {
 }
 
 #editorBot:hover {
-    color: #000;
+    color: rgba(80, 129, 251, 0.08);
 }
 
 #comunidadeBot:hover {
-    color: #000;
+    color: rgba(80, 129, 251, 0.08);
 }
 
 
