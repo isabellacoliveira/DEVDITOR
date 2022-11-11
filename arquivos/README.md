@@ -42,19 +42,19 @@ Ao clicar no código, ele deve voltar para o editor para que
 Devemos implementar os botões de like e comentário também
 
 ## pagina principal 
-![principal](./imagens/paginaprincipal.PNG)
+![principal](../imagens/paginaprincipal.PNG)
 
 ## pagina comunidade
-![comunidade](./imagens/paginacomunidade.PNG)
+![comunidade](../imagens/paginacomunidade.PNG)
 
 ## responsivo 
 ## 1
-![1] (./imagens/responsivo.PNG)
+![1](./imagens/responsivo.PNG)
 
 ## 2
-![2] (./imagens/responsivo2.PNG)
+![2](./imagens/responsivo2.PNG)
 
 ## 3
-![3] (./imagens/responsivo3.PNG)
+![3](./imagens/responsivo3.PNG)
 
 
