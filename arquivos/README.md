@@ -20,4 +20,41 @@ O que deve funcionar a primeiro momento?
 -ao digitar o nome do projeto, ele deve ter a possibilidade de ser reescrito
 
 
-# Contribute
+# DESAFIO 2
+# Adicionando sintaxe Highlight com Javascript
+
+dizer para o highlight qual a linguagem que ele está usando 
+Trocar a cor de fundo 
+
+Com o highlight js: ao selecionar a linguagem, o código ficará com uma cor diferente 
+Ela depende da linguagem que vc utilizar 
+Podemos mudar totalmente a estilização do código 
+
+Página de comunidade 
+Apresentar todos os nossos projetos feitos no editor de texto 
+Ao clicar em salvar projeto, o código será salvo e deve aparecer na parte de comunidade 
+Ele terá o título do projeto e a descrição do projeto
+
+Gerar o cadastramento 
+
+Ao clicar no código, ele deve voltar para o editor para que 
+
+Devemos implementar os botões de like e comentário também
+
+## pagina principal 
+![principal](./imagens/paginaprincipal.PNG)
+
+## pagina comunidade
+![comunidade](./imagens/paginacomunidade.PNG)
+
+## responsivo 
+## 1
+![1] (./imagens/responsivo.PNG)
+
+## 2
+![2] (./imagens/responsivo2.PNG)
+
+## 3
+![3] (./imagens/responsivo3.PNG)
+
+
