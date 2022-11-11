@@ -6,12 +6,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>EDITOR DE TEXTO</title>
         <link rel="stylesheet" href="../css/card.css">
-        <!-- <link rel="stylesheet" href="../css/style.css"> -->
         <link rel="stylesheet" href="../css/dracula.css">
         <link rel="stylesheet" href="../css/global.css">
         <link rel="stylesheet" href="../css/desktop.css">
         <link rel="stylesheet" href="../css/responsivo.css">
-        <link rel="stylesheet" href="../css/main.css">
     </head>
 
     </head>
@@ -37,14 +35,14 @@
                 <div id="blocoCodigo">
                     <img src="../imagens/i1.png" id="codigo">
                     <img src="../imagens/c1.png" id="icone">
-                    <button onclick="window.location.href = 'index.html'">
+                    <button id="editorBot">
                         Editor de código
                     </button>
                 </div>
                 <div id="blocoComunidade">
                     <img src="../imagens/i2.png" id="comunidade">
                     <img src="../imagens/c2.png" id="comu">
-                    <button id="comunidadeBot" onclick="criaDiv()">
+                    <button id="comunidadeBot">
                         Comunidade
                     </button>
                 </div>
@@ -66,7 +64,7 @@
     
                         </div>
                         <div id="parteCode">
-                            <code class="preview-hljs" contenteditable="true" aria-label="Editor de código">socorro</code>
+                            <code class="preview-hljs" contenteditable="true" aria-label="Editor de código">Digite seu código</code>
                         </div>
                     </div>
                 </div>
@@ -104,7 +102,7 @@
                 <input id="b1" type="color" value="#6BD1FF"></input>
             </div>
 
-            <button id="b2" onclick="criarContainer(),  clicks++">Salvar projeto</button>
+            <button id="b2" onclick="clicks++">Salvar projeto</button>
 
         </div>
     </div>
@@ -112,7 +110,6 @@
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
     <script src="../javascript/highlight.js"></script>
-    <script src="../javascript/changeColor.js"></script>
     <script src="../javascript/salvandoProjeto.js"></script>
 
     </body>

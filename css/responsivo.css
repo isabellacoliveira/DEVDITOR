@@ -16,7 +16,7 @@
         padding: 0px 0px 100px 50px;
         display: inline;
         justify-content: center;
-        width: 100%;
+        width: 25%;
         
     }
 
@@ -65,22 +65,20 @@
 
     .blocoFinal {
         padding: 70px 0px 200px 5px;
-        width: 100%;
+        width: 25%;
         
         
     }
 
     #caixa {
-        /* padding-top: 40px;
-        padding-bottom: 40px;
-        padding-right: 10px ;
-        padding-left: 10px; */
         margin-left: 210px;
         margin-right: 210px;
         border-radius: 8px;
         position: relative;
         width: 800px;
     }
+
+   
 
     
 }

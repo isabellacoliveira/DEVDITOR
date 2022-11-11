@@ -172,6 +172,7 @@ body {
 
 #caixa {
     border-radius: 8px;
+    width: 400px;
 }
 
 .caixaDeTexto {
@@ -208,6 +209,7 @@ option {
     border-radius: 8px;
     width: 305px;
     border-width: 2px;
+    margin-right: 20p
 }
 
 #b1{
@@ -299,17 +301,64 @@ code {
 }
 
 #contemCards {
-    width: 100%;
+    width: 50%;
     display: none;
+    margin-right: 200px;
+    /* overflow: auto; */
+    height: 100%;
+    resize: none;
+  
+    
 }
 
 #cardsCriados {
-    display: flex;
+    display: block;
     /* width: 100%; */
+    position: relative;
 }
 
 .cardizins {
     width: 100%;
-    /* margin: 10px; */
     display: inline-block;
+    padding-bottom: 30px;
 }
+
+#bordaDoCard {
+    padding-bottom: 60px;
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 8px;
+    /* background-color: #6BD1FF; */
+}
+
+#recebeConteudo {
+    box-sizing: border-box; 
+    border-radius: 0px 0px 8px 8px;
+    height: 300px;
+    background-color: #fff;
+    text-align: left;
+    overflow-y: auto;
+    overflow-x: auto;
+    resize: none;
+
+
+}
+
+#conteudoInserido {
+    background-color: #000;
+    height: 300px;
+    width: 100%;
+    border-radius: 0px 0px 8px 8px;
+}
+
+#editorBot:hover {
+    color: #000;
+}
+
+#comunidadeBot:hover {
+    color: #000;
+}
+
+
+
